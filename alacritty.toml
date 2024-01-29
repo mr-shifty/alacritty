@@ -1,0 +1,98 @@
+import = ["~/.config/alacritty/themes/ayu_dark.toml",
+"~/.config/alacritty/themes/doom_one.toml", "~/.config/alacritty/themes/drakula.toml"]
+
+live_config_reload = true
+
+# shell = "/usr/bin/zsh"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14
+
+[window]
+decorations = "Full"
+dynamic_padding = true
+opacity = 0.82
+blur = true
+decorations_theme_variant = "Dark"
+
+[window.padding]
+x = 0
+y = 0
+
+[colors.primary]
+background = "0x0A0E14"
+#foreground = "0xB3B1AD" 
+foreground = "#FDF4E3"
+
+[colors.normal]
+black = "0x01060E"
+red = "0xEA6C73"
+#green = "0x91B362"
+green = "#00FF7F"
+yellow = "0xF9AF4F"
+blue = "0x53BDFA"
+magenta = "0xFAE994"
+cyan = "0x90E1C6"
+white = "0xC7C7C7"
+
+[colors.bright]
+black = "0x686868"
+red = "0xF07178"
+green = "0xC2D94C"
+yellow = "0xFFB454"
+blue = "0x59C2FF"
+magenta = "0xFFEE99"
+cyan = "0x95E6CB"
+white = "0xFFFFFF"
+
+[mouse]
+hide_when_typing = true
+
+[cursor]
+style = {shape = "Block", blinking = "Always"}
+blink_timeout = 0
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Control"
+action = "SpawnNewInstance"
+
+[[keyboard.bindings]]
+key = "Space"
+mods = "Alt"
+chars = " "
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Super"
+chars = "\u0015"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Control"
+chars = "\u001bOH"
+mode = "AppCursor"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Control"
+chars = "\u001bOF"
+mode = "AppCursor"
+
+#[[keyboard.bindings]]
+#key = "R"
+#mods = "Control"
+#chars = "\u001bR"
