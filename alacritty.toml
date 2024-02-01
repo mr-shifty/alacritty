@@ -24,14 +24,15 @@ y = 0
 
 [colors.primary]
 background = "0x0A0E14"
-#foreground = "0xB3B1AD" 
+#foreground = "0xB3B1AD"
 foreground = "#FDF4E3"
 
 [colors.normal]
 black = "0x01060E"
 red = "0xEA6C73"
-#green = "0x91B362"
-green = "#00FF7F"
+# green = "0x91B362"
+# green = "#00FF7F"
+green = "#37A34F"
 yellow = "0xF9AF4F"
 blue = "0x53BDFA"
 magenta = "0xFAE994"
@@ -55,10 +56,10 @@ hide_when_typing = true
 style = {shape = "Block", blinking = "Always"}
 blink_timeout = 0
 
-[[keyboard.bindings]]
-key = "N"
-mods = "Control"
-action = "SpawnNewInstance"
+#[[keyboard.bindings]]
+#key = "N"
+#mods = "Control"
+#action = "SpawnNewInstance"
 
 [[keyboard.bindings]]
 key = "Space"
