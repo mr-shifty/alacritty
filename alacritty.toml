@@ -11,6 +11,10 @@ TERM = "alacritty"
 [font]
 size = 14
 
+[font.normal]
+#family = "JetBrainsMonoNerdFont"
+#family = "HackNerdFont"
+
 [window]
 decorations = "Full"
 dynamic_padding = true
